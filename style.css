@@ -1,0 +1,150 @@
+/* GENERAL PAGE SETTINGS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* SECTION SETTINGS */
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* SKILLS LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #00b4d8;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* LINKS & BUTTONS */
+a {
+    text-decoration: none;
+}
+
+a.download {
+    display: inline-block;
+    background: #0077b6;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+a.download:hover {
+    background: #023e8a;
+}
+
+/* PROJECTS SECTION */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    color: #0077b6;
+    margin: 15px 0 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    padding: 0 15px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #023e8a;
+}
+
+/* CONTACT FORM */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #023e8a;
+}
+
+/* FOOTER */
+footer {
+    background: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
